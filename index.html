@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sponge Agency</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/x-icon" href="images/header/favicom.png">
+      <link href="assets/bootstrap5.min.css" rel="stylesheet">
+      <link href="assets/style.css" rel="stylesheet">
+      <link href="assets/w3.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/aos.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="assets/jquery-3.6.min.js"></script>
+      <script src="assets/bootstrap5.bundle.min.js"></script>
+      <script src="assets/aos.js"></script>
+   </head>
+   <body>
+      <div class="w3-sidebar w3-card w3-animate-left w3-white" style="display:none" id="mySidebar">
+         <!-- Page content -->
+         <!-- Icon Bar (Sidebar - hidden on small screens) -->
+         <nav class="w3-main-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+            <!-- Avatar image in top left corner -->
+            <a href="#main" class="w3-bar-item w3-button w3-padding nav-active-col nav-col-hover" onclick="w3_close()">
+               <img src="./images/icons/home.png" class="icon-img">
+               <p>HOME</p>
+            </a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/about.png" class="icon-img">
+               <p>ABOUT</p>
+            </a>
+            <a href="#services" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/service.png" class="icon-img">
+               <p>SERVICES</p>
+            </a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/portfolio.png" class="icon-img">
+               <p>PORTFOLIO</p>
+            </a>
+            <a href="#team" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/team.png" class="icon-img">
+               <p>TEAM</p>
+            </a>
+            <a href="#blog" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/blog.png" class="icon-img">
+               <p>BLOGS</p>
+            </a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding nav-col-hover">
+               <img src="./images/icons/contact.png" class="icon-img">
+               <p>CONTACT</p>
+            </a>
+         </nav>
+         <!-- Navbar on small screens (Hidden on medium and large screens) -->
+         <div class="w3-hide-large w3-hide-medium" id="small-sc-nav">
+            <nav class="w3-bar-block w3-small  w3-center w3-padding-16 mt-3">
+               <!-- Avatar image in top left corner -->
+               <a href="#main" class="w3-bar-item w3-button  nav-col-hover" onclick="w3_close()">
+                 <p>HOME</p> 
+               </a>
+               <a href="#about" class="w3-bar-item w3-button  nav-col-hover">
+                  
+                  <p>ABOUT</p>
+               </a>
+               <a href="#services" class="w3-bar-item w3-button  nav-col-hover">
+                  <p>SERVICES</p>
+               </a>
+               <a href="#portfolio" class="w3-bar-item w3-button nav-col-hover">
+                  <p>PORTFOLIO</p>
+               </a>
+               <a href="#team" class="w3-bar-item w3-button  nav-col-hover">
+                  <p>TEAM</p>
+               </a>
+               <a href="#blog" class="w3-bar-item w3-button  nav-col-hover">
+                  <p>BLOGS</p>
+               </a>
+               <a href="#contact" class="w3-bar-item w3-button  nav-col-hover">
+                  <p>CONTACT</p>
+               </a>
+            </nav>
+         </div>
+         <!-- Page Content -->
+         <div class="w3-padding-large" id="main">
+            <!-- About Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+               <h2 class="w3-text-black ff-avc">Who We Are</h2>
+               <hr style="width:200px" class="w3-opacity">
+               <p class="w3-text-black font-16">Unlock your inhibitions about the digital world with us. We welcome you to the world of Sponge LLC, a Digital Marketing agency, where we bring the digital world together. </p>
+               <p class="w3-text-black font-16">Hello! We are a bunch of enthusiasts who have a keen interest in bringing your ideas to the world and selling them. We dare to care about each aspect of your business. Our creativity is our USP. We do not talk around the way instead transparency is our belief.</p>
+               <p class="w3-text-black font-16"> Sponge LLC is a Digital Marketing agency, Dubai, where innovative ideas flourish. You will get tailor-made strategies and solutions that make us unique from others. Our work is our love, when we love our work we give more than 100%. You got to be with us to understand the essence of love and faith. I think we changed the definition of love!    
+               </p>
+               <!-- End About Section -->
+            </div>
+            <!-- Services Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="services">
+               <h2 class="w3-text-black ff-avc">Our Services</h2>
+               <hr style="width:200px" class="w3-opacity">
+               <br>
+               <div class="w3-row-padding row-mlr">
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center" >
+                        <img src="./images/content-writing.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Content Writing</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p><a href="services/content-writing.html" class="w3-button w3-light-grey w3-block w3-text-black">Read More</a>
+                           </p>
+                           </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center">
+                        <img src="./images/social-media.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Social Media Management</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center">
+                        <img src="./images/digital-marketing.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Digital Marketing</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center">
+                        <img src="./images/branding.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Branding</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center">
+                        <img src="./images/website-design.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Website Design</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5 w3-center">
+                        <img src="./images/content-production.png" alt="Dan" class="service-img mt-3">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Content Production</h3>
+                           <p class="w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- End About Section -->
+            </div>
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="portfolio">
+               <h2 class="w3-text-black ff-avc">Our Portfolio</h2>
+               <hr style="width:200px" class="w3-opacity">
+               <!-- Grid for photos -->
+               <div class="w3-row-padding row-mlr">
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-one.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-two.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-three.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-six.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-five.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-four.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-seven.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-eight.jpg" class="w3-image">
+                  </div>
+                  <div class="w3-col l4 m6 ">
+                     <img src="./images/portfolio-nine.jpg" class="w3-image">
+                  </div>
+                  <!-- End photo grid -->
+               </div>
+               <!-- End Portfolio Section -->
+            </div>
+            <!-- Team Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="team">
+               <h2 class="w3-text-black ff-avc">The Team</h2>
+               <hr style="width:150px" class="w3-opacity">
+               <br>
+               <div class="w3-row-padding w3-grayscale row-mlr">
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog2.png" alt="John" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">John Doe</h3>
+                           <p class="w3-text-black w3-opacity">CEO & Founder</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog3.png" alt="Jane" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">John Doe</h3>
+                           <p class="w3-text-black w3-opacity">CEO & Founder</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog1.png" alt="Dan" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">John Doe</h3>
+                           <p class="w3-text-black w3-opacity">CEO & Founder</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Blogs Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="blog">
+               <h2 class="w3-text-black ff-avc">Our Blogs</h2>
+               <hr style="width:150px" class="w3-opacity">
+               <br>
+               <div class="w3-row-padding w3-grayscale row-mlr">
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog2.png" alt="John" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Blog</h3>
+                           <p class="w3-opacity w3-text-black">CEO & Founder</p>
+                           <p class="w3-opacity w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class=" w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog3.png" alt="Jane" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Blog</h3>
+                           <p class="w3-opacity w3-text-black">CEO & Founder</p>
+                           <p class="w3-opacity w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w3-col l4 m6 w3-margin-bottom">
+                     <div class="w3-card-5">
+                        <img src="./images/blog1.png" alt="Dan" class="w3-image">
+                        <div class="w3-container">
+                           <h3 class="w3-text-black">Blog</h3>
+                           <p class="w3-opacity w3-text-black">CEO & Founder</p>
+                           <p class="w3-opacity w3-text-black">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                           <p class="w3-text-black"><button class="w3-button w3-light-grey w3-block">Read More</button></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+               <h2 class="w3-text-black ff-avc">Contact Us</h2>
+               <hr style="width:200px" class="w3-opacity">
+               <br>
+               <p>Let's get in touch. Send us a message:</p>
+               <form action="/action_page.php" target="_blank">
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                     <div class="w3-half mt-3">
+                        <input class="w3-input w3-border w3-padding-8" type="text" placeholder="Name" required name="Name">
+                     </div>
+                     <div class="w3-half mt-3">
+                        <input class="w3-input w3-border w3-padding-8" type="text" placeholder="Email" required name="Email">
+                     </div>
+                  </div>
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                     <div class="w3-half mt-3">
+                        <input class="w3-input w3-border w3-padding-8" type="text" placeholder="Phone" required name="Phone">
+                     </div>
+                     <div class="w3-half mt-3">
+                        <select class="w3-select w3-border" name="option" style="padding:11px 0px 11px 0px;">
+                           <option value="" disabled selected>Business Size</option>
+                           <option value="1">Option 1</option>
+                           <option value="2">Option 2</option>
+                           <option value="3">Option 3</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                     <div class="w3-half mt-3">
+                        <p>
+                           <label>I’m interested in help with... </label>
+                        </p>
+                        <p>
+                           <input class="w3-check" type="checkbox">
+                        </p>
+                        <p>
+                           <input class="w3-check" type="checkbox">
+                        </p>
+                        <p>
+                           <input class="w3-check" type="checkbox">
+                        </p>
+                        <p>
+                           <input class="w3-check" type="checkbox">
+                        </p>
+                     </div>
+                     <div class="w3-half mt-3">
+                        <p>
+                           <label>What is the best time to call you? </label>
+                        </p>
+                        <p>
+                           <input class="w3-check" type="radio">
+                        </p>
+                        <p>
+                           <input class="w3-check" type="radio">
+                        </p>
+                        <p>
+                           <input class="w3-check" type="radio">
+                        </p>
+                     </div>
+                  </div>
+                  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                     <div class="w3-half">
+                        <input class="w3-input w3-border w3-padding-8" type="text" placeholder="Your Monthly Budget?" required name="Budget">
+                     </div>
+                     <div class="w3-half">
+                     </div>
+                  </div>
+                  <div class="w3-row-padding " style="margin:0 -16px 8px -16px">
+                     <div class="w3-half mt-3">
+                        <label>Inquiry Details</label>
+                        <textarea class="w3-input w3-border" style="resize:none" name="ID"></textarea>
+                     </div>
+                     <div class="w3-half mt-3">
+                        <label>Where did you hear about us?</label>
+                        <textarea class="w3-input w3-border" style="resize:none" name="hear"></textarea>
+                     </div>
+                  </div>
+                  <button class="w3-button w3-black w3-left w3-section w3-padding" type="submit">
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                  </button>
+               </form>
+               <!-- End Contact Section -->
+            </div>
+            <br>
+            <div class="w3-row mt-5 w3-content">
+               <div class="w3-col l10">
+                  <p><i class="fa fa-map-marker fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> 51 Tower Business Bay, Dubai UAE</p>
+                  <p><i class="fa fa-phone fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> Phone: +</p>
+                  <p><i class="fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right"> </i> Email: support@spongeagency.ae, www.spongeagency.ae</p>
+               </div>
+            </div>
+            <!-- Footer -->
+            <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge">
+               <i class="fa fa-facebook-official w3-hover-opacity"></i>
+               <i class="fa fa-instagram w3-hover-opacity"></i>
+               <i class="fa fa-snapchat w3-hover-opacity"></i>
+               <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+               <i class="fa fa-twitter w3-hover-opacity"></i>
+               <i class="fa fa-linkedin w3-hover-opacity"></i>
+               <p class="w3-medium">Powered by <a href="#" target="_blank" class="w3-hover-text-green">Sponge Digital Marketing LLC</a></p>
+               <!-- End footer -->
+            </footer>
+            <!-- END PAGE CONTENT -->
+         </div>
+      </div>
+      <!--Home Page---->
+      <div class="banner">
+         <video autoplay muted loop>
+             <source src="./images/intro-video.mp4" type="video/mp4" />
+             <source src="./images/intro-video.ogg" type="video/ogg" />
+             <source src="/images/intro-video.webm" type="video/webm" />
+          </video>
+          <div class="w3-dis-tr w3-hide-medium w3-hide-large">
+            <h6><button class="w3-button w3-white btn-menu w3-opacity-min w3-hover-opacity-off" onclick="w3_open()">MENU</button></h6> 
+         </div>
+          <div class="w3-dis-tl w3-hide-small">
+            <h6><button class="w3-button w3-white btn-menu w3-opacity-min w3-hover-opacity-off" onclick="w3_open()">MENU</button></h6> 
+         </div>
+         <div>
+            <h6><Button class="w3-button w3-white btn-audio  w3-opacity-min w3-hover-opacity-off">AUDIO ON.</button>
+            </h6>
+         </div>
+         </div>
+      <div class="whats-app"><a href='https://wa.me/' target='_blank'><i class="fa fa-whatsapp"></i></a></div>
+   </body>
+   <script src="assets/custom.js"></script>
+   <script type="text/javascript">
+      AOS.init({
+          duration:1500,
+      });
+   </script>
+   
+</html>

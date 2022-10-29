@@ -1,0 +1,135 @@
+@font-face{
+  font-family: 'avc';
+  src:url(../assets/font/AcuminVariableConcept.otf);
+  }
+html {
+  scroll-behavior: smooth!important;
+}
+*{
+  font-family:'avc';
+}
+.ff-avc{
+  font-family: 'avc';
+}
+.font-16{
+  font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'avc';
+}
+.bgimg {
+  background-image: url('../images/forest.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.whats-app {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 40px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  padding-top:9px;
+  }
+.w3-row-padding img {margin-bottom: 12px}
+.bg-gray{background-color:#f1f1f1}
+.w3-main-sidebar{height:100%;width: 120px !important;background-color:#f1f1f1;position:fixed!important;z-index:1;overflow:auto}
+#main {margin-left: 120px}
+.team-bg-col{
+  background-color:rgb(27, 27, 27);
+}
+.service-img{
+  width:110px;
+}
+.w3-main-sidebar::-webkit-scrollbar-track {
+  padding: 2px 0;
+  background-color:#ccc;
+  border-radius: 2px;
+  }
+  .w3-main-sidebar::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 1px;
+  }
+  .w3-main-sidebar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1e1e1e;
+  }
+  #w3-bar-block  > a:hover, #w3-bar-block > span:hover{
+  background:#fff!important;
+  color:#1e1e1e!important;
+  border-radius:8px;
+  width:225px!important;
+  margin:0px 0px 0px 8px;
+  }
+  /* [1] The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+.icon-img{
+  width:50px;
+}
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+  .w3-card-pink{box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+.w3-card-5{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.nav-active-col{background-color: #ccc!important;color:#000}
+.nav-col-hover:hover{background-color: #ccc!important;color:#000}
+.banner{
+  position:relative;
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+}
+.banner video{
+  position:relative;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#small-sc-nav p{
+  margin-top: 0!important; 
+   margin-bottom: 0!important; 
+}
+.banner .btn-audio{
+  position: absolute;
+  bottom:18%;
+  right:8%;
+  background-color: #FFF;
+  padding:10px 18px;
+  font-size:18px;
+  font-weight: 800;
+  border-radius:1px;
+  border:none;
+  outline:none;
+}
+.banner .btn-menu{
+  background-color: #FFF;
+  padding:8px 18px;
+  font-size:18px;
+  font-weight: 800;
+  border-radius:1px;
+  border:none;
+  outline:none;
+}
+.w3-dis-tl{position:absolute;left:50px;top:50px}
+.w3-dis-tr{position:absolute;right:20px;top:20px}
+.row-mlr{margin:0 -16px}
+/* Remove margins from "page content" on small screens */
+@media  screen and (max-width: 600px) {
+  #main {margin-left: 0}
+.banner .btn-audio{display:none;}
+}
